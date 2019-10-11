@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/logo_menu"
     tools:context=".List_Game">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:id="@+id/button_online"
+        android:layout_width="150dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="44dp"
         android:layout_marginTop="60dp"
         android:text="Game Oniline "
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,9 +20,9 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/button_offline"
+        android:layout_width="150dp"
+        android:layout_height="67dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="50dp"
         android:text="Game Offline"
@@ -29,4 +30,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="152dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
