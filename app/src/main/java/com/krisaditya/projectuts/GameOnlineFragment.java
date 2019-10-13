@@ -1,7 +1,7 @@
 package com.krisaditya.projectuts;
 
 
-import android.media.Image;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,7 +9,13 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
+import android.widget.ImageView;
+
+import com.krisaditya.projectuts.GameOnlineActivity.Dota;
+import com.krisaditya.projectuts.GameOnlineActivity.MonsterHunter;
+import com.krisaditya.projectuts.GameOnlineActivity.Overwatch;
+import com.krisaditya.projectuts.GameOnlineActivity.Rocket_League;
+import com.krisaditya.projectuts.GameOnlineActivity.Warframe;
 
 
 /**
@@ -17,6 +23,11 @@ import android.widget.ImageButton;
  */
 public class GameOnlineFragment extends Fragment {
 
+    ImageView imageview1;
+    ImageView imageview2;
+    ImageView imageview3;
+    ImageView imageview4;
+    ImageView imageview5;
 
     public GameOnlineFragment() {
         // Required empty public constructor
@@ -28,7 +39,62 @@ public class GameOnlineFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_game_online, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_game_online, container, false);
+
+        imageview1 = view.findViewById(R.id.imageView);
+        imageview2 = view.findViewById(R.id.imageView2);
+        imageview3 = view.findViewById(R.id.imageView3);
+        imageview4 = view.findViewById(R.id.imageView4);
+        imageview5 = view.findViewById(R.id.imageView5);
+
+        imageview1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Warframe.class);
+                intent.putExtra("some","some data");
+                startActivity(intent);
+
+            }
+        });
+
+        imageview2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Rocket_League.class);
+                intent.putExtra("some","some data");
+                startActivity(intent);
+            }
+        });
+
+        imageview3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Overwatch.class);
+                intent.putExtra("some","some data");
+                startActivity(intent);
+            }
+        });
+
+        imageview4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), MonsterHunter.class);
+                intent.putExtra("some","some data");
+                startActivity(intent);
+            }
+        });
+
+        imageview5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Dota.class);
+                intent.putExtra("some","some data");
+                startActivity(intent);
+            }
+        });
+        return view;
+
 
     }
 

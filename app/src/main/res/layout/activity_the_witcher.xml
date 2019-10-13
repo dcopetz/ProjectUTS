@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/logo_menu"
-    tools:context=".GameOnlineActivity.Warframe">
+    tools:context=".GameOfflineActivity.TheWitcher">
 
     <TextView
         android:id="@+id/editText"
@@ -17,7 +17,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:text="Warframe, game action Co-op yang bisa kamu mainkan secara gratis dari Steam. Kamu dapat memilih senjata kamu sendiri sesuai gaya bermain kamu.  Kamu bisa bermain game online PC ini satu tim dengan temanmu atau menjadi lawan. Berikut adalah spesifikasi minimalnya."
+        android:text="Nah, tentu ga lengkap kalau game offline PC terbaik tapi gaada game The Witcher 3: Wild Hunt guys. Game ini menceritakan perjalanan Geralt sebagai seorang Witcher. Kamu akan dihadapkan dengan berbagai musuh dan permasalahan di perjalanannya."
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="sans-serif"
-        android:text="Spesifikasi OS	Windows XP SP 3 or higher Processor	Intel Core 2 Duo e6400 or AMD Athlon x64 4000+ Memory	2 GB RAM Graphics	Nvidia GeForce 8600 GT or ATI Radeon HD 3600 Storage	25 GB"
+        android:text="Spesifikasi OS	64-bit Windows 7, 64-bit Windows 8 (8.1) or 64-bit Windows 10 Processor	Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940 Memory	6 GB RAM Graphics	Nvidia GPU GeForce GTX 660 / AMD GPU Radeon HD 7870 Storage	35 GB"
         android:textAllCaps="false"
         android:textSize="18sp"
         android:textStyle="bold|italic"

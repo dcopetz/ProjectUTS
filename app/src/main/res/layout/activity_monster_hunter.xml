@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/logo_menu"
-    tools:context=".GameOnlineActivity.Warframe">
+    tools:context=".GameOnlineActivity.MonsterHunter">
 
     <TextView
         android:id="@+id/editText"
@@ -17,7 +17,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:text="Warframe, game action Co-op yang bisa kamu mainkan secara gratis dari Steam. Kamu dapat memilih senjata kamu sendiri sesuai gaya bermain kamu.  Kamu bisa bermain game online PC ini satu tim dengan temanmu atau menjadi lawan. Berikut adalah spesifikasi minimalnya."
+        android:text="Game Online PC terbaik selanjutnya adalah Monster Hunter: World, kamu bisa bermain dengan temanmu secara online untuk memburu monster-monster unik. Tentu kalian tak asing lagi ya dengan gameplay dari Monster Hunter dan monsternya itu sendiri.  Kamu bisa mengunduh game ini di Steam dan inilah spesifikasi minimal yang harus kamu miliki."
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="sans-serif"
-        android:text="Spesifikasi OS	Windows XP SP 3 or higher Processor	Intel Core 2 Duo e6400 or AMD Athlon x64 4000+ Memory	2 GB RAM Graphics	Nvidia GeForce 8600 GT or ATI Radeon HD 3600 Storage	25 GB"
+        android:text="Spesifikasi OS	WINDOWS 7, 8, 8.1, 10 (64-bit required) Processor	Intel Core i5-4460, 3.20GHz or AMD FX -6300 Memory	8 GB RAM Graphics	NVIDIA GeForce GTX 760 or AMD Radeon R7 260x (VRAM 2GB) Storage	20 GB"
         android:textAllCaps="false"
         android:textSize="18sp"
         android:textStyle="bold|italic"

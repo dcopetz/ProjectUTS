@@ -9,8 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Rocket_League" />
-        <activity android:name=".Warframe" />
+        <activity android:name=".GameOfflineActivity.TombRaider" />
+        <activity android:name=".GameOfflineActivity.Sekiro" />
+        <activity android:name=".GameOfflineActivity.TheWitcher" />
+        <activity android:name=".GameOfflineActivity.Darksoul3" />
+        <activity android:name=".GameOfflineActivity.ResidenEvil" />
+        <activity android:name=".GameOnlineActivity.Dota" />
+        <activity android:name=".GameOnlineActivity.MonsterHunter" />
+        <activity android:name=".GameOnlineActivity.Overwatch" />
+        <activity android:name=".GameOnlineActivity.Rocket_League" />
+        <activity android:name=".GameOnlineActivity.Warframe" />
         <activity android:name=".List_Game" />
         <activity android:name=".MainActivity">
             <intent-filter>
