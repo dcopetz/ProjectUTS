@@ -11,9 +11,10 @@
         android:id="@+id/button_online"
         android:layout_width="150dp"
         android:layout_height="67dp"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="60dp"
-        android:text="Game Oniline "
+        android:onClick="handleGameOnline"
+        android:text="Game Online "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,7 +25,8 @@
         android:layout_width="150dp"
         android:layout_height="67dp"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="handleGameOffline"
         android:text="Game Offline"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,4 +39,15 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="152dp" />
+
+    <FrameLayout
+        android:id="@+id/gamelist_fragment_placeholder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
