@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent =  new Intent(this,List_Game.class);
         startActivity(intent);
     }
-
+    public void handleGamingGears(View view) {
+        Intent intent =  new Intent(this,GamingGears.class);
+        startActivity(intent);
+    }
 
 }

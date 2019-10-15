@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Headset"></activity>
+        <activity android:name=".GamingGears" />
         <activity android:name=".GameOfflineActivity.TombRaider" />
         <activity android:name=".GameOfflineActivity.Sekiro" />
         <activity android:name=".GameOfflineActivity.TheWitcher" />
