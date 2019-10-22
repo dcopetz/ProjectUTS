@@ -1,4 +1,5 @@
-package com.krisaditya.projectuts.HeadsetFragment
+package com.krisaditya.projectuts.KeyboardFragment
+
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
@@ -8,9 +9,9 @@ class MyPagerAdapter(fm: FragmentManager): FragmentPagerAdapter(fm){
 
     //sebuah list yang menampung objek Fragment
     private val pages = listOf(
-            HSteelseriesFragment(),
-            HRazerFragment(),
-            HLogitechFragment()
+            KSteelseriesFragment(),
+            KRazerFragment(),
+            KLogitechFragment()
     )
 
     override fun getItem(position: Int): Fragment {

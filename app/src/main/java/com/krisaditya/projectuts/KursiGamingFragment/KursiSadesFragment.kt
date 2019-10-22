@@ -1,4 +1,4 @@
-package com.krisaditya.projectuts.HeadsetFragment
+package com.krisaditya.projectuts.KursiGamingFragment
 
 
 import android.os.Bundle
@@ -11,12 +11,12 @@ import com.krisaditya.projectuts.R
 /**
  * A simple [Fragment] subclass.
  */
-class SteelseriesFragment : Fragment() {
+class KursiSadesFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_headset1, container, false)
+        return inflater.inflate(R.layout.fragment_kursi_sades, container, false)
     }
 
 

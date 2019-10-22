@@ -1,16 +1,19 @@
-package com.krisaditya.projectuts.HeadsetFragment
+package com.krisaditya.projectuts.KursiGamingFragment
+
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-
+import com.krisaditya.projectuts.KursiGamingFragment.KursiDxrFragment
+import com.krisaditya.projectuts.KursiGamingFragment.KursiRexusFragment
+import com.krisaditya.projectuts.KursiGamingFragment.KursiSadesFragment
 
 class MyPagerAdapter(fm: FragmentManager): FragmentPagerAdapter(fm){
 
     //sebuah list yang menampung objek Fragment
     private val pages = listOf(
-            HSteelseriesFragment(),
-            HRazerFragment(),
-            HLogitechFragment()
+            KursiSadesFragment(),
+            KursiRexusFragment(),
+            KursiDxrFragment()
     )
 
     override fun getItem(position: Int): Fragment {

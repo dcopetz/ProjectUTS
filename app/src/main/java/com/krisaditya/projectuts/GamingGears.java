@@ -18,5 +18,20 @@ public class GamingGears extends AppCompatActivity {
             Intent intent =  new Intent(this,Headset.class);
             startActivity(intent);
         }
+
+    public void handleKeyboard(View view) {
+        Intent intent =  new Intent(this,Keyboard.class);
+        startActivity(intent);
+    }
+
+    public void handleMouse(View view) {
+        Intent intent =  new Intent(this,Mouse.class);
+        startActivity(intent);
+    }
+
+    public void handleKursiGaming(View view) {
+        Intent intent =  new Intent(this,KursiGaming.class);
+        startActivity(intent);
+    }
 }
 

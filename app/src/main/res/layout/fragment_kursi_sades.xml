@@ -5,16 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/logo_menu"
-    tools:context=".HeadsetFragment.HRazerFragment">
+    tools:context=".KursiGamingFragment.KursiSadesFragment">
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="235dp"
-        android:layout_height="63dp"
+        android:layout_width="251dp"
+        android:layout_height="62dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:text="Razer Kraken Pro 2015"
+        android:text="Sades Sirius - Gaming Chair"
         android:textColor="#201E1E"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -25,12 +25,12 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="370dp"
-        android:layout_height="441dp"
+        android:layout_width="450dp"
+        android:layout_height="511dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="14dp"
         android:layout_marginEnd="50dp"
-        android:src="@drawable/razer"
+        android:src="@drawable/kursisades"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />

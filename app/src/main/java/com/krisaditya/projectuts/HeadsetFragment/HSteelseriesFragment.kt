@@ -11,12 +11,12 @@ import com.krisaditya.projectuts.R
 /**
  * A simple [Fragment] subclass.
  */
-class RazerFragment : Fragment() {
+class HSteelseriesFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_headset2, container, false)
+        return inflater.inflate(R.layout.fragment_headset1, container, false)
     }
 
 

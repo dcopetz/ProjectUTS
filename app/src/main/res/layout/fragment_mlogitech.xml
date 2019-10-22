@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/logo_menu"
-    tools:context=".HeadsetFragment.HRazerFragment">
+    tools:context=".MouseFragment.MLogitechFragment">
 
     <TextView
         android:id="@+id/textView6"
@@ -14,7 +14,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:text="Razer Kraken Pro 2015"
+        android:text="Logitech G PRO Wireless"
         android:textColor="#201E1E"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -25,12 +25,12 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="370dp"
-        android:layout_height="441dp"
+        android:layout_width="400dp"
+        android:layout_height="501dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="14dp"
         android:layout_marginEnd="50dp"
-        android:src="@drawable/razer"
+        android:src="@drawable/mlogitech"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />

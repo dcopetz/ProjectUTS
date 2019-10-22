@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/logo_menu"
-    tools:context=".HeadsetFragment.SteelseriesFragment">
+    tools:context=".HeadsetFragment.HSteelseriesFragment">
 
     <TextView
         android:id="@+id/textView6"
@@ -14,7 +14,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
-        android:text="SteelSeries  Arctis Pro Wireless"
+        android:text="SteelSeries Arctis Pro Wireless"
         android:textColor="#201E1E"
         android:textSize="24sp"
         android:textStyle="bold"
