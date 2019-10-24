@@ -36,6 +36,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="Warframe"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -51,6 +52,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="Rocket League"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -68,6 +70,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="Overwatch"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -83,6 +86,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="Monster Hunter"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -98,6 +102,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="Dota 2"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 

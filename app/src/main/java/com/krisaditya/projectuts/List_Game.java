@@ -3,6 +3,7 @@ package com.krisaditya.projectuts;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -22,7 +23,6 @@ public class List_Game extends AppCompatActivity {
         } else {
             fragmentTransaction.setCustomAnimations(R.anim.enter_from_left, R.anim.enter_from_right, R.anim.exit_from_left, R.anim.exit_from_right);
             fragmentTransaction.replace(R.id.gamelist_fragment_placeholder, new GameOnlineFragment(), "GANEONLINE_FRAGMENT");
-            fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
         }
     }
@@ -36,9 +36,9 @@ public class List_Game extends AppCompatActivity {
         else{
             fragmentTransaction.setCustomAnimations(R.anim.enter_from_left, R.anim.enter_from_right, R.anim.exit_from_left, R.anim.exit_from_right);
             fragmentTransaction.replace(R.id.gamelist_fragment_placeholder, new GameOfflineFragment(), "GAMEOFFLINE_FRAGMENT");
-            fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
         }
     }
+
 }
 

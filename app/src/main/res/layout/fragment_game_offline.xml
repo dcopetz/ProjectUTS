@@ -35,7 +35,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Residen Evil 2"
+                android:text="Resident Evil 2"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -51,6 +52,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="Dark Soul 3"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -68,6 +70,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="The Witcher 3"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -83,6 +86,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="Sekiro"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -98,6 +102,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="Tomb Raider"
+                android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 

@@ -2,12 +2,17 @@ package com.krisaditya.projectuts.GameOnlineActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.net.Uri;
 import android.os.Bundle;
+import android.widget.MediaController;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 import com.krisaditya.projectuts.R;
 
 public class Rocket_League extends AppCompatActivity {
+
+    VideoView videoView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +25,17 @@ public class Rocket_League extends AppCompatActivity {
                         "data"+ bundle.getString("some"),Toast.LENGTH_SHORT).show();
             }
         }
+
+        getSupportActionBar().setTitle("Rocket League");
+        getSupportActionBar().setSubtitle("");
+
+        videoView = (VideoView)findViewById(R.id.videoView);
+        //inisialisasi object videoview
+        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() +"/" + R.raw.rocketleague));
+        //digunakan untuk mengidentifikasi resource seperti lokasi video
+        videoView.setMediaController(new MediaController(this));
+        //menampilkan media controler video
+        videoView.start();
+        //memulaivideo
     }
 }

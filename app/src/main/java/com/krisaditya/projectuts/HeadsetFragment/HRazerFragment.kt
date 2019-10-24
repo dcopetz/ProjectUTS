@@ -1,11 +1,14 @@
 package com.krisaditya.projectuts.HeadsetFragment
 
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import com.krisaditya.projectuts.DetailHeadset2
 import com.krisaditya.projectuts.R
 
 /**
@@ -13,10 +16,21 @@ import com.krisaditya.projectuts.R
  */
 class HRazerFragment : Fragment() {
 
+    internal lateinit var button1: Button;
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_headset2, container, false)
+        val view = inflater.inflate(R.layout.fragment_headset2, container, false)
+
+        button1 = view.findViewById(R.id.button);
+
+        button1.setOnClickListener(View.OnClickListener {
+            val intent = Intent(activity, DetailHeadset2::class.java)
+            intent.putExtra("some", "some data")
+            startActivity(intent)
+        })
+        return view;
     }
 
 

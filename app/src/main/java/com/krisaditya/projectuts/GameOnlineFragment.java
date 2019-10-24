@@ -29,6 +29,7 @@ public class GameOnlineFragment extends Fragment {
     ImageView imageview4;
     ImageView imageview5;
 
+
     public GameOnlineFragment() {
         // Required empty public constructor
 
@@ -94,7 +95,6 @@ public class GameOnlineFragment extends Fragment {
             }
         });
         return view;
-
 
     }
 
